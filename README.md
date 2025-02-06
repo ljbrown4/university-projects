@@ -8,7 +8,7 @@ The program provides a variety of functions to interact with stock prices, inclu
 
 ## **Final Project**  
 
-This Python script defines a `TextModel` class that analyzes textual data and classifies it based on linguistic features. It includes helper functions for cleaning text (`clean_text`), stemming words (`stem`), and comparing feature dictionaries (`compare_dictionaries`). The `TextModel` class stores features such as word frequency, word length distribution, sentence length distribution, stem frequency, and adjacent word pairs. It provides methods for adding text from strings and files, saving and loading model data, computing similarity scores, and classifying unknown text by comparing it to reference models. The script includes test functions to demonstrate text classification on sample data.  
+This code defines a `TextModel` class that analyzes textual data and classifies it based on linguistic features. It includes helper functions for cleaning text (`clean_text`), stemming words (`stem`), and comparing feature dictionaries (`compare_dictionaries`). The `TextModel` class stores features such as word frequency, word length distribution, sentence length distribution, stem frequency, and adjacent word pairs. It provides methods for adding text from strings and files, saving and loading model data, computing similarity scores, and classifying unknown text by comparing it to reference models. The script includes test functions to demonstrate text classification on sample data.  
 
 ---
 
