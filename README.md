@@ -22,7 +22,7 @@ This code defines a `Date` class that represents calendar dates using day, month
 
 This project implements a Connect Four game using object-oriented programming in Python. The `Board` class handles game board operations, including adding and removing checkers, checking for wins, and resetting the board. The `Player` class represents a human player, while the `RandomPlayer` selects moves randomly. The `connect_four` function facilitates gameplay between two players, processing moves and determining the game outcome. Additionally, the `AIPlayer` class uses a lookahead strategy with different tiebreaking methods to make intelligent moves. The AI evaluates board states recursively, making strategic decisions based on potential future moves.  
 
-## ** Array Recursion **
+## **Array Recursion**
 The `ArrayRecursion` class provides recursive methods to search for an item in an array and to reverse an array into a formatted string representation.
 
 - **Search Method:** Recursively traverses the array from a given start index, returning `true` if the item is found and `false` otherwise.
