@@ -21,3 +21,25 @@ This code defines a `Date` class that represents calendar dates using day, month
 ## **Connect Four**  
 
 This project implements a Connect Four game using object-oriented programming in Python. The `Board` class handles game board operations, including adding and removing checkers, checking for wins, and resetting the board. The `Player` class represents a human player, while the `RandomPlayer` selects moves randomly. The `connect_four` function facilitates gameplay between two players, processing moves and determining the game outcome. Additionally, the `AIPlayer` class uses a lookahead strategy with different tiebreaking methods to make intelligent moves. The AI evaluates board states recursively, making strategic decisions based on potential future moves.  
+
+## ** Array Recursion **
+The `ArrayRecursion` class provides recursive methods to search for an item in an array and to reverse an array into a formatted string representation.
+
+- **Search Method:** Recursively traverses the array from a given start index, returning `true` if the item is found and `false` otherwise.
+- **Reverse Method:** Constructs a string representation of the array in reverse order using recursion.
+- **Testing:** The `main` method contains test cases to demonstrate the functionality.
+
+## **Sudoku Solver**
+This Java program implements a `Sudoku` class that represents and solves a 9x9 Sudoku puzzle using recursive backtracking.
+
+- **Grid Representation:** Maintains a 9x9 puzzle state while tracking fixed values.
+- **Optimization:** Uses boolean arrays for rows, columns, and 3x3 subgrids to optimize constraint checking.
+- **Recursive Solving:** The `solveRB` method fills in empty cells while ensuring validity using the `isValid` method.
+- **File Handling:** Reads an initial puzzle configuration from a file, prints the state, and attempts to solve it. If a solution is found, it is displayed; otherwise, the user is informed that no solution exists.
+
+## **String Node**
+The `StringNode` class represents a string using a linked list structure, where each node contains a character and a reference to the next node.
+
+- **Linked List Operations:** Includes methods for manipulating the linked list, such as `charAt`, `indexOf`, `insertAfter`, `deleteChar`, `copy`, and `removeAllSpaces`.
+- **Functionality:** Provides flexible character-based operations within the linked list structure.
+- **Testing:** The `main` method demonstrates sample usage of these methods for string manipulation.
